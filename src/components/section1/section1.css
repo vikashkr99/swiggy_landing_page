@@ -1,0 +1,159 @@
+.section1 {
+    display: flex;
+    flex-direction: row;
+    height: 40vw;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left .outterdiv {
+    width: 78%;
+    height: 80%;
+    margin-left: 9%;
+}
+
+.left .outterdiv .first {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left .outterdiv .first svg {
+    width: 40%;
+    fill: #fc8019;
+}
+
+.left .outterdiv .first .buttons {
+    height: 100%;
+    width: 36%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left .outterdiv .first .buttons button {
+    height: 65%;
+    width: 50%;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+}
+
+.left .outterdiv h1 {
+    margin-top: 10%;
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+.left .outterdiv h2 {
+    font-weight: normal;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    color: #686b78;
+}
+
+.left .outterdiv .first .buttons button:first-child {
+    background: transparent;
+}
+.left .outterdiv .first .buttons button:nth-child(2) {
+    background: black;
+    color: white;
+}
+
+.left .outterdiv .second {
+    margin-top: 5.5%;
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.left .outterdiv .second input {
+    color: lightgray;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1vw;
+    padding: 1% 4%;
+    border: solid 1px darkgray;
+}
+
+.left .outterdiv .second input:focus {
+    outline: none;
+    border: #fc8019 solid 1px;
+}
+
+.left .outterdiv .second input::placeholder {
+    color: dark;
+}
+
+
+.left .outterdiv .second .buttons {
+    width: 42.1%;
+    height: 100%;
+    margin-left: -42%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left .outterdiv .second .buttons button {
+    width: 50%;
+    height: 100%;
+    border: none;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.left .outterdiv .second .buttons button:first-child {
+    height: 60%;
+    margin: 0 5%;
+    width: 40%;
+    background: transparent;
+    font-weight: lighter;
+    font-size: 0.9vw;
+}
+
+.left .outterdiv .second .buttons button:first-child:hover {
+    background: lightgray;
+}
+
+.left .outterdiv .second .buttons button:last-child {
+    background: #fc8019;
+    color: white;
+}
+
+.left .outterdiv p {
+    margin-top: 5%;
+    font-size: 1vw;
+    color: gray;
+}
+
+.left .outterdiv p:last-child {
+    margin-top: 3%;
+    font-size: 1vw;
+    font-weight: bold;
+    color: gray;
+    word-spacing: 0.3vw;
+}
+
+.left .outterdiv p:last-child :nth-child(even) {
+    color: darkgray;
+}
+
+.right {
+    width: 45%;
+    height: 100%;
+    background: url('./Lunch1_vlksgq.jpeg') center center no-repeat;
+    background-size: cover;
+}

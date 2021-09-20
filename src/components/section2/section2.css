@@ -1,0 +1,35 @@
+.section2 {
+    height: 28vw;
+    width: 100%;
+    background: rgb(43, 30, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section2 .boxes {
+    height: 80%;
+    width: 18%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 .boxes img {
+    height: 64%;
+}
+
+.section2 .boxes h3 {
+    color: white;
+    margin-top: 18%;
+    font-size: 1.2vw;
+}
+
+.section2 .boxes p {
+    color: #e0cbc1;
+    margin-top: 5%;
+    font-size: 0.9vw;
+    text-align: center;
+    line-height: 1.3vw;
+}
