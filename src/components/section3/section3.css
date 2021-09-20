@@ -1,0 +1,48 @@
+.section3 {
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section3 .outterdiv {
+    height: 100%;
+    width: 100%;
+    padding: 10.5% 8%;
+}
+
+.section3 .outterdiv h1 {
+    font-size: 2.4vw;
+}
+
+.section3 .outterdiv p {
+    margin-top: 5.5%;
+    font-size: 1.2vw;
+    color: gray;
+    line-height: 1.5vw;
+}
+
+.section3 .outterdiv .buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.section3 .outterdiv .buttons a img {
+    width: 90%;
+    height: 95%;
+}
+
+.section3 img {
+    height: 85%;
+}
+
+.section3 img:nth-child(2) {
+    margin-right: -2.5%;
+}
+
+.section3 img:last-child {
+    align-self: flex-end;
+    margin-right: 5%;
+}
