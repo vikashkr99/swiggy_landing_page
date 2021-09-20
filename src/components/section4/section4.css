@@ -1,0 +1,68 @@
+.section4 {
+    width: 100%;
+    height: 38vw;
+    background: black;
+    padding: 6% 8% 0 8%;
+    color: white;
+}
+
+.section4 .outter {
+    width: 100%;
+    border-bottom: solid 1px #4d4d4d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.5%;
+}
+
+.section4 .outter .list {
+    width: 30%;
+}
+
+.section4 .outter .list p {
+    color: gray;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.section4 .outter ul {
+    list-style: none;
+    width: 100%;
+    margin-top: 9%;
+}
+
+.section4 .outter ul li {
+    margin-top: 4.5%;
+    font-size: 1vw;
+}
+
+.section4 .outter ul li:hover {
+    font-size: 1.1vw;
+}
+
+.section4 .outter .buttons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 .outter .buttons a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 .outter .buttons a img {
+    width: 90%;
+    margin-bottom: 10%;
+    border: solid 1px grey;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.section4 .outter .buttons a img:hover {
+    width: 95%;
+    transform: scale(1.05);
+}
