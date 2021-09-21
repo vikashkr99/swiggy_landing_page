@@ -32,3 +32,27 @@
     text-align: center;
     line-height: 1.3vw;
 }
+
+@media screen and (max-width: 550px) {
+    .section2 {
+        height: 45vw;
+    }
+
+    .section2 .boxes {
+        height: 100%;
+        width: 20%;
+    }
+
+    .section2 .boxes h3 {
+        font-size: 1.5vw;
+        text-align: center;
+    }
+
+    .section2 .boxes p {
+        color: #e0cbc1;
+        margin-top: 5%;
+        font-size: 1.2vw;
+        text-align: center;
+        line-height: 1.5vw;
+    }
+}

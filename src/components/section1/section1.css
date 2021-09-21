@@ -157,3 +157,51 @@
     background: url('./Lunch1_vlksgq.jpeg') center center no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 550px) {
+    .section1 .right {
+        display: none;
+    }
+
+    .section1 {
+        height: 54vw;
+    }
+
+    .section1 .left {
+        height: 100%;
+        width: 100%;
+    }
+
+    .left .outterdiv .first .buttons button {
+        font-size: 2vw;
+    }
+
+    .left .outterdiv h1 {
+        font-size: 3vw;
+    }
+
+    .left .outterdiv h2 {
+        font-size: 2vw;
+    }    
+
+    .left .outterdiv .second input {
+        font-size: 1.5vw;
+    }
+
+    .left .outterdiv .second .buttons button {
+        font-size: 1.5vw;
+    }
+
+    .left .outterdiv .second .buttons button:first-child {
+        font-size: 1.3vw;
+    }
+
+    .left .outterdiv p {
+        font-size: 2vw;
+    }
+    
+    .left .outterdiv p:last-child {
+        font-size: 2vw;
+        word-spacing: 0.3vw;
+    }
+  }
