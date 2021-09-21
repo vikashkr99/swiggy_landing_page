@@ -46,3 +46,34 @@
     align-self: flex-end;
     margin-right: 5%;
 }
+
+@media screen and (max-width: 550px) {
+    .section3 > img {
+        display: none;
+    }
+
+    .section3 {
+        height: 45vw;
+    }
+
+    .section3 .outterdiv {
+        height: 100%;
+        width: 100%;
+        padding: 5% 8%;
+    }
+
+    .section3 .outterdiv h1 {
+        font-size: 4vw;
+    }
+
+    .section3 .outterdiv p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .section3 .outterdiv .buttons {
+        width: 40%;
+        margin-top: 5%;
+    }
+
+}

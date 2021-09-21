@@ -16,15 +16,16 @@ const section4 = () => {
                 <Ul listarray = {list1} heading={'COMPANY'}/>
                 <Ul  listarray = {list2} heading={'CONTACT'}/>
                 <Ul  listarray = {list3} heading={'LEGAL'}/>
-            <div className="buttons">
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                    <img src={Img1} alt="" />
-                </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                    <img src={Img2} alt="" />
-                </a>
+                <div className="buttons">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src={Img1} alt="" />
+                    </a>
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <img src={Img2} alt="" />
+                    </a>
+                </div>
             </div>
-            </div>
+            
             <Footerr />
         </div>
      );
