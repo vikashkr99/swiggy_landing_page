@@ -2,6 +2,7 @@ import './section4.css';
 import Ul from './ul';
 import Img1 from '../section3/astore.png';
 import Img2 from '../section3/gplay.png';
+import Footerr from './footerr';
 
 const section4 = () => {
 
@@ -24,6 +25,7 @@ const section4 = () => {
                 </a>
             </div>
             </div>
+            <Footerr />
         </div>
      );
 }
