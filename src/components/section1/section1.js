@@ -1,4 +1,5 @@
 import './section1.css';
+import aim from './aim.png';
 const section1 = () => {
 
     return (
@@ -19,7 +20,7 @@ const section1 = () => {
                     <div className="second">
                         <input type="text" placeholder={'Enter your delivery location'} />
                         <div className="buttons">
-                            <button>Locate Me</button>
+                            <button><img src={aim} alt="" /> Locate Me</button>
                             <button>FIND FOOD</button>
                         </div>
                     </div>

@@ -4,7 +4,6 @@ const Ul = ({ listarray, heading }) => {
         <div className="list">
             <p>{heading}</p>
             <ul>
-                
                 {listarray.map((item)=>(
                     <li>{item}</li>
                 ))}
