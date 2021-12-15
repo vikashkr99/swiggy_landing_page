@@ -25,7 +25,6 @@ const section4 = () => {
                     </a>
                 </div>
             </div>
-            
             <Footerr />
         </div>
      );
